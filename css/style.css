@@ -1,14 +1,45 @@
 #container {
     width: 200px;
     height: 200px;
+    left: 0px;
     position: relative;
     background: green;
 }
 
-#box {
-    width: 50px;
-    height: 50px;
+#box0 {
+    width: 30px;
+    height: 30px;
     position: absolute;
     background: red;
     left: 0px;
+    border-radius: 50%;
+}
+
+#box1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: blue;
+    left: 170px;
+    border-radius: 50%;
+}
+
+#box2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: purple;
+    left: 170px;
+    top: 170px;
+    border-radius: 50%;
+}
+
+#box3 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: black;
+    left: 0px;
+    top: 170px;
+    border-radius: 50%;
 }
