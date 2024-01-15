@@ -11,10 +11,6 @@ var signals = [
     {signal_right: false, signal_botton: false, signal_left: false, signal_top: false}
 ]
 
-
-
-
-
 signals[0].signal_right = true;
 
 var box0_move = setInterval(() => {
@@ -38,13 +34,6 @@ signals[3].signal_top = true;
 var box1_move = setInterval(() => {
     movement(box3, container, signals[3]);
 }, interval)
-
-
-
-
-
-
-
 
 function rightMove(el_move, el_limit, signal){
     let pos = el_move.offsetLeft;
